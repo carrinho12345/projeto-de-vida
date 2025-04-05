@@ -3,7 +3,7 @@
 :root {
     --azul-claro: #40c3cf;
     --vermelho: #eb0505;
-    --branco: #def205;
+    --amarelo: #def205;
     --botao-ativo: #0a1173;
     --botao-inativo: rgba(58, 55, 94, 0.5);
     --texto-fundo: rgba(58, 55, 94, 0.3);
@@ -11,7 +11,7 @@
 
 body {
     background-color: var(--azul-claro);
-    color: var(--branco);
+    color: var(--amarelo);
     font-family: 'Chakra Petch', sans-serif;
 }
 
@@ -40,7 +40,7 @@ body {
 .botao {
     font-family: 'Chakra Petch', sans-serif;
     background-color: var(--botao-inativo);
-    color: var(--branco);
+    color: var(--amarelo);
     display: flex;
     justify-content: center;
     padding: 1em;
