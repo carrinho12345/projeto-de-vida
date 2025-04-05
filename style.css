@@ -2,7 +2,7 @@
 
 :root {
     --roxo: #520336;
-    --azul-claro: #eb0505;
+    --vermelho: #eb0505;
     --branco: #FFFFFF;
     --botao-ativo: #3A375E;
     --botao-inativo: rgba(58, 55, 94, 0.5);
@@ -33,7 +33,7 @@ body {
 }
 
 .titulo-principal span {
-    color: var(--azul-claro);
+    color: var(--vermelho);
 }
 
 
@@ -63,7 +63,7 @@ body {
 
 .botao.ativo {
     background-color: var(--botao-ativo);
-    border-bottom: 4px solid var(--azul-claro);
+    border-bottom: 4px solid var(--vermelho);
 }
 
 .abas-textos {
@@ -110,7 +110,7 @@ body {
 }
 
 .contador-digito-texto {
-    color: var(--azul-claro);
+    color: var(--vermelho);
     font-size: 20px;
     margin: 0;
 
